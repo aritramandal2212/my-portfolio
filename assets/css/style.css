@@ -399,14 +399,14 @@
   }
   
   .contact-title {
-    color: var(--light-gray-70);
+    color: hsla(0, 0%, 84%, 0.7);
     font-size: var(--fs-8);
     text-transform: uppercase;
     margin-bottom: 2px;
   }
   
   .contact-info :is(.inf-me) {
-    color: var(--white-2);
+    color: hsl(0, 0%, 98%);
     font-size: var(--fs-7);
   }
   
@@ -1456,11 +1456,7 @@
   
     .contacts-list { grid-template-columns: 1fr; }
   
-    .contact-info :is(.eml) {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+
   
     .contact-info :is(.inf-me) {
       --fs-7: 14px;
