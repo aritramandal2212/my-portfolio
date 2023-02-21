@@ -407,7 +407,7 @@
     margin-bottom: 2px;
   }
   
-  .contact-info :is(.contact-link, time, address) {
+  .contact-info :is(.inf-me) {
     color: var(--white-2);
     font-size: var(--fs-7);
   }
@@ -1458,13 +1458,13 @@
   
     .contacts-list { grid-template-columns: 1fr; }
   
-    .contact-info :is(.contact-link) {
+    .contact-info :is(.eml) {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
   
-    .contact-info :is(.contact-link, time, address) {
+    .contact-info :is(.inf-me) {
       --fs-7: 14px;
       font-weight: var(--fw-300);
     }
